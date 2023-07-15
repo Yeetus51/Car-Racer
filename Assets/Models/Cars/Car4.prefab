@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6853178872633413478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1532442826198869419}
+  - component: {fileID: 5112830423854031365}
+  - component: {fileID: 7049783862041158904}
+  - component: {fileID: -2494790030621662384}
+  m_Layer: 0
+  m_Name: Car4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1532442826198869419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853178872633413478}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.4, y: 0, z: 1000}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 907158273941628432}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5112830423854031365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853178872633413478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.55, y: 3.19, z: 9.77}
+  m_Center: {x: 0, y: 1.77, z: -0.08}
+--- !u!114 &7049783862041158904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853178872633413478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56112a051c378c5469f5bc15f7b7c503, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 290270938743261065}
+  - {fileID: 4726996187813666789}
+  - {fileID: 5195887761435835931}
+  - {fileID: 8445207518633174008}
+  carController: {fileID: 0}
+  trafficAi: {fileID: 0}
+  wheelSpeed: 0
+--- !u!114 &-2494790030621662384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853178872633413478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6499f4423c6094479e47a6b42996cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carController: {fileID: 0}
+  speed: 1
+--- !u!1001 &800627918910095867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1532442826198869419}
+    m_Modifications:
+    - target: {fileID: -8969584286845067294, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_Name
+      value: WBL
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000005338508
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000053385076
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4781869710017138793, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_Name
+      value: WFL
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_Name
+      value: SubaruWRX
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248943562834545396, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_Name
+      value: WFR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5806992070783042032, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+        type: 3}
+      propertyPath: m_Name
+      value: WBR
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f06d6c41a4e3f834cb1e55a48b07f661, type: 3}
+--- !u!4 &290270938743261065 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1088561832790902386, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+    type: 3}
+  m_PrefabInstance: {fileID: 800627918910095867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &907158273941628432 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+    type: 3}
+  m_PrefabInstance: {fileID: 800627918910095867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4726996187813666789 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -3853446146803900898, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+    type: 3}
+  m_PrefabInstance: {fileID: 800627918910095867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5195887761435835931 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4393289222945292320, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+    type: 3}
+  m_PrefabInstance: {fileID: 800627918910095867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8445207518633174008 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9092487993573450243, guid: f06d6c41a4e3f834cb1e55a48b07f661,
+    type: 3}
+  m_PrefabInstance: {fileID: 800627918910095867}
+  m_PrefabAsset: {fileID: 0}
